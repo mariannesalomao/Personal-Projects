@@ -1,0 +1,15 @@
+{
+  "name": "Dec2Bin",
+  "version": "1.0.0",
+  "description": "Web App to convert Bin to Dec",
+  "main": "index.js",
+  "author": "Marianne Salomão",
+  "license": "MIT",
+  "scripts": {
+    "dev": "index.js"
+  },
+  "repository": {
+    "url": "https://github.com/mariannesalomao/PROJECTS",
+    "type": "git"
+  }
+}
