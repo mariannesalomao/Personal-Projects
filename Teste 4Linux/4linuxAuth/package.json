@@ -1,0 +1,19 @@
+{
+  "name": "4linuxauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "marianne salomao",
+  "license": "ISC",
+  "devDependencies": {
+    "cookie-parser": "^1.4.5",
+    "body-parser": "^1.19.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.10.0"
+  }
+}

@@ -1,0 +1,26 @@
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.bordered {
+    border: 2px solid lightgray;
+}
+
+.row .col.pull-s7 {
+    right: -5%;
+}

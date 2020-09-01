@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de API's Públicas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./mvp2.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="center">Lista de API's Públicas e suas Funcionalidades</h1>
+
+    <div id="spinner" class="flex-row flex-center">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+        </div>
+        <span style="margin-left: 10px; font-size: 1.3rem;">Só um Momento...</span>
+    </div>
+
+<!--    <a href="/sessionLogout">Log out</a>-->
+
+    <div class="flex-row">
+        <input type="text" id="inputFilter">
+        <div><b>Lista de API's Públicas em ordem alfabética:</b></div>
+        <button id="buttonFilter" class="waves-effect waves-light btn" style="margin-left: 10px;">API's</button>
+    </div>
+
+    <div id="divAPI" style="margin-left: -108px;"></div>
+
+</div>
+
+<script defer src="./script2.js"></script>
+</body>
+</html>
+
